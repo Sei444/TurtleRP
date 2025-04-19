@@ -38,11 +38,11 @@ function TurtleRP.OpenAdmin()
 
   TurtleRP_AdminSB_Content1_Tab2:Hide()
 
-  TurtleRP_AdminSB_SpellBookFrameTabButton1:SetText("Basic Info")
+  TurtleRP_AdminSB_SpellBookFrameTabButton1:SetText("Informacion Basica")
   TurtleRP_AdminSB_SpellBookFrameTabButton1:SetNormalTexture("Interface\\Spellbook\\UI-Spellbook-Tab1-Selected")
   TurtleRP_AdminSB_SpellBookFrameTabButton1.bookType = "profile"
   TurtleRP_AdminSB_SpellBookFrameTabButton2:SetNormalTexture("Interface\\Spellbook\\UI-SpellBook-Tab-Unselected")
-  TurtleRP_AdminSB_SpellBookFrameTabButton2:SetText("RP Style")
+  TurtleRP_AdminSB_SpellBookFrameTabButton2:SetText("Estilo de RolPlay")
   TurtleRP_AdminSB_SpellBookFrameTabButton2.bookType = "rp_style"
 
   TurtleRP.OnAdminTabClick(1)

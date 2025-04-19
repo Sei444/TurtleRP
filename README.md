@@ -1,5 +1,21 @@
 ## TurtleRP
 
+Hola soy Sei, me estoy encargando de modificar el Addon de TurtleRP para la version de TurtleWoW SA, muchas funcionalidades aun estan en desarrollo(incompletas), intentare modificarlas o crearlas de cero, de a poco, segun cuanto apoyo se tenga y el tiempo que se me de.
+
+Puedes apoyarme revisando mi Ko-fi
+- https://ko-fi.com/sei_444#
+Igualmente puedes dejarme un DM a mi Perfil en Discord por si tienes alguna sugerencia de Addon o encuentras errores en otros Addons
+- discordapp.com/users/1144453997260972032
+
+## Como usar?
+
+Si no tienes el icono cerca del mapa, ingresa el comando /ttrp este habilitara el TurtleRP.
+Para los diferentes botones (podras moverlos con Shift+Click manteniendo presionado)
+
+Sin mas les dejo con los comentarios de Drixi
+
+## TurtleRP Original Addon
+
 An RP addon custom-made for Vanilla WoW.
 
 For more information, visit [https://tempranova.github.io/turtlerp/](https://tempranova.github.io/turtlerp/).
@@ -25,6 +41,9 @@ Minor Bugs
 Next Up
 
 ### Recently Done
+
+1.1.2
+- Added funcionality for SA Server @Sei
 
 1.1.1
 

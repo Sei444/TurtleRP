@@ -151,7 +151,7 @@
             </Anchor>
           </Anchors>
         </FontString>
-        <FontString name="$parent_UpdateText" inherits="GameFontHighlightSmall" text="A new version of TurtleRP is available." hidden="true">
+        <FontString name="$parent_UpdateText" inherits="GameFontHighlightSmall" text="Una nueva version de TurtleRP esta disponible @Sei" hidden="true">
           <Anchors>
             <Anchor point="TOPRIGHT" relativePoint="TOPRIGHT">
               <Offset>
@@ -189,7 +189,7 @@
         <Layers>
     			<Layer level="OVERLAY">
             <!-- Flavour Text -->
-            <FontString name="$parent_FlavourText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Greetings, adventurer! Tell us about yourself...">
+            <FontString name="$parent_FlavourText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="¡Saludos, aventurero! Cuéntanos algo sobre ti.">
               <Anchors>
                 <Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPLEFT">
                   <Offset>
@@ -220,7 +220,7 @@
               <Color r="0" g="0" b="0" a="0.3" />
             </Texture>
             <!-- Name Text -->
-            <FontString name="$parent_NameText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Character Title and Name">
+            <FontString name="$parent_NameText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Título y nombre del personaje">
               <Anchors>
                 <Anchor point="LEFT" relativeTo="$parent_hr" relativePoint="LEFT">
                   <Offset>
@@ -234,7 +234,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- Race Text -->
-            <FontString name="$parent_RaceText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Race">
+            <FontString name="$parent_RaceText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Raza">
               <Anchors>
                 <Anchor point="LEFT" relativeTo="$parent_NameText" relativePoint="LEFT">
                   <Offset>
@@ -248,7 +248,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- Icons Text -->
-            <FontString name="$parent_IconText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Icon">
+            <FontString name="$parent_IconText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Icono">
               <Anchors>
                 <Anchor point="LEFT" relativeTo="$parent_RaceText" relativePoint="RIGHT">
                   <Offset>
@@ -262,7 +262,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- Class Text -->
-            <FontString name="$parent_ClassText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Class">
+            <FontString name="$parent_ClassText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Clase">
               <Anchors>
                 <Anchor point="LEFT" relativeTo="$parent_RaceText" relativePoint="LEFT">
                   <Offset>
@@ -276,7 +276,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- Color Text -->
-            <FontString name="$parent_ClassColorText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Class Color">
+            <FontString name="$parent_ClassColorText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Color Clase">
               <Anchors>
                 <Anchor point="LEFT" relativeTo="$parent_ClassText" relativePoint="RIGHT">
                   <Offset>
@@ -304,7 +304,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- IC Info Text -->
-            <FontString name="$parent_ICInfoText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="IC Info">
+            <FontString name="$parent_ICInfoText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Informacion IC(In Character/En Personaje)">
               <Anchors>
                 <Anchor point="LEFT" relativeTo="$parent_ClassText" relativePoint="LEFT">
                   <Offset>
@@ -318,7 +318,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- IC Pronouns Info Text -->
-            <FontString name="$parent_ICPronounsText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="IC Pronouns">
+            <FontString name="$parent_ICPronounsText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="IC Pronombre">
               <Anchors>
                 <Anchor point="LEFT" relativeTo="$parent_ICInfoText" relativePoint="LEFT">
                   <Offset>
@@ -332,7 +332,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- OOC Info Text -->
-            <FontString name="$parent_OOCInfoText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="OOC Info">
+            <FontString name="$parent_OOCInfoText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Info OOC(Out of Character/Fuera de Personaje)">
               <Anchors>
                 <Anchor point="LEFT" relativeTo="$parent_ICPronounsText" relativePoint="LEFT">
                   <Offset>
@@ -346,7 +346,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- OOC Pronouns Info Text -->
-            <FontString name="$parent_OOCPronounsText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="OOC Pronouns">
+            <FontString name="$parent_OOCPronounsText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="OOC Pronombre">
               <Anchors>
                 <Anchor point="LEFT" relativeTo="$parent_OOCInfoText" relativePoint="LEFT">
                   <Offset>
@@ -362,7 +362,7 @@
           </Layer>
         </Layers>
         <Frames>
-          <Button name="$parent_SaveButton" inherits="UIPanelButtonGrayTemplate" text="Save">
+          <Button name="$parent_SaveButton" inherits="UIPanelButtonGrayTemplate" text="Guardar">
             <Size>
               <AbsDimension x="50" y="25" />
             </Size>
@@ -716,7 +716,7 @@
         <Layers>
     			<Layer level="OVERLAY">
             <!-- Flavour Text -->
-            <FontString name="$parent_FlavourText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Describe your RP style for others to see.">
+            <FontString name="$parent_FlavourText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Describe tu estilo de RP para que otros lo vean.">
               <Anchors>
                 <Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPLEFT">
                   <Offset>
@@ -747,7 +747,7 @@
               <Color r="0" g="0" b="0" a="0.3" />
             </Texture>
             <!-- Experience Text -->
-            <FontString name="$parent_ExperienceText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="RP experience">
+            <FontString name="$parent_ExperienceText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Experiencia RP">
               <Anchors>
                 <Anchor point="LEFT" relativeTo="$parent_hr" relativePoint="LEFT">
                   <Offset>
@@ -761,7 +761,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- Walkups Text -->
-            <FontString name="$parent_WalkupsText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Walk-Ups">
+            <FontString name="$parent_WalkupsText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Interaccion Espontanea">
               <Anchors>
                 <Anchor point="LEFT" relativeTo="$parent_ExperienceText" relativePoint="LEFT">
                   <Offset>
@@ -775,7 +775,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- Injury Text -->
-            <FontString name="$parent_InjuryText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Character Injury">
+            <FontString name="$parent_InjuryText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Heridas de Personaje">
               <Anchors>
                 <Anchor point="LEFT" relativeTo="$parent_WalkupsText" relativePoint="LEFT">
                   <Offset>
@@ -789,7 +789,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- Romance Text -->
-            <FontString name="$parent_RomanceText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Character Romance">
+            <FontString name="$parent_RomanceText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Situación Romántica">
               <Anchors>
                 <Anchor point="LEFT" relativeTo="$parent_InjuryText" relativePoint="LEFT">
                   <Offset>
@@ -803,7 +803,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- Death Text -->
-            <FontString name="$parent_DeathText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Character Death">
+            <FontString name="$parent_DeathText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Muerte de Personaje">
               <Anchors>
                 <Anchor point="LEFT" relativeTo="$parent_RomanceText" relativePoint="LEFT">
                   <Offset>
@@ -819,7 +819,7 @@
           </Layer>
         </Layers>
         <Frames>
-          <Button name="$parent_SaveButton" inherits="UIPanelButtonGrayTemplate" text="Save">
+          <Button name="$parent_SaveButton" inherits="UIPanelButtonGrayTemplate" text="Guardar">
             <Size>
               <AbsDimension x="50" y="25" />
             </Size>
@@ -852,7 +852,7 @@
             </Anchors>
             <Layers>
               <Layer level="OVERLAY">
-                <FontString name="$parent_Text" inherits="GameFontHighlightSmall" text="Experience">
+                <FontString name="$parent_Text" inherits="GameFontHighlightSmall" text="Experiencia">
                   <Anchors>
                     <Anchor point="TOPLEFT">
                       <Offset>
@@ -883,7 +883,7 @@
             </Anchors>
             <Layers>
               <Layer level="OVERLAY">
-                <FontString name="$parent_Text" inherits="GameFontHighlightSmall" text="Walk-Ups">
+                <FontString name="$parent_Text" inherits="GameFontHighlightSmall" text="Interaccion Espontanea">
                   <Anchors>
                     <Anchor point="TOPLEFT">
                       <Offset>
@@ -914,7 +914,7 @@
             </Anchors>
             <Layers>
               <Layer level="OVERLAY">
-                <FontString name="$parent_Text" inherits="GameFontHighlightSmall" text="injury">
+                <FontString name="$parent_Text" inherits="GameFontHighlightSmall" text="Heridas de Personaje">
                   <Anchors>
                     <Anchor point="TOPLEFT">
                       <Offset>
@@ -945,7 +945,7 @@
             </Anchors>
             <Layers>
               <Layer level="OVERLAY">
-                <FontString name="$parent_Text" inherits="GameFontHighlightSmall" text="Romance">
+                <FontString name="$parent_Text" inherits="GameFontHighlightSmall" text="Situación Romántica">
                   <Anchors>
                     <Anchor point="TOPLEFT">
                       <Offset>
@@ -976,7 +976,7 @@
             </Anchors>
             <Layers>
               <Layer level="OVERLAY">
-                <FontString name="$parent_Text" inherits="GameFontHighlightSmall" text="Death">
+                <FontString name="$parent_Text" inherits="GameFontHighlightSmall" text="Muerte de Personaje">
                   <Anchors>
                     <Anchor point="TOPLEFT">
                       <Offset>
@@ -1010,7 +1010,7 @@
         <Layers>
     			<Layer level="OVERLAY">
             <!-- Flavour Text -->
-            <FontString name="$parent_FlavourText" justifyH="LEFT" justifyV="top" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="What are the first things that other adventurers notice about you?">
+            <FontString name="$parent_FlavourText" justifyH="LEFT" justifyV="top" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="¿Qué llama la atención de tu personaje a primera vista?">
               <Size>
                 <AbsDimension x="310" y="30"/>
               </Size>
@@ -1044,7 +1044,7 @@
               <Color r="0" g="0" b="0" a="0.3" />
             </Texture>
             <!-- AAG2 Text -->
-            <FontString name="$parent_AAG1Text" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Icon and Text 1">
+            <FontString name="$parent_AAG1Text" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Icono y Texto 1">
               <Anchors>
                 <Anchor point="LEFT" relativeTo="$parent_hr" relativePoint="LEFT">
                   <Offset>
@@ -1058,7 +1058,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- AAG2 Text -->
-            <FontString name="$parent_AAG2Text" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Icon and Text 2">
+            <FontString name="$parent_AAG2Text" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Icono y Texto 2">
               <Anchors>
                 <Anchor point="LEFT" relativeTo="$parent_AAG1Text" relativePoint="LEFT">
                   <Offset>
@@ -1072,7 +1072,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- AAG3 Text -->
-            <FontString name="$parent_AAG3Text" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Icon and Text 3">
+            <FontString name="$parent_AAG3Text" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Icono y Texto 3">
               <Anchors>
                 <Anchor point="LEFT" relativeTo="$parent_AAG2Text" relativePoint="LEFT">
                   <Offset>
@@ -1088,7 +1088,7 @@
           </Layer>
         </Layers>
         <Frames>
-          <Button name="$parent_SaveButton" inherits="UIPanelButtonGrayTemplate" text="Save">
+          <Button name="$parent_SaveButton" inherits="UIPanelButtonGrayTemplate" text="Guardar">
             <Size>
               <AbsDimension x="50" y="25" />
             </Size>
@@ -1519,7 +1519,7 @@
         <Layers>
     			<Layer level="OVERLAY">
             <!-- Flavour Text -->
-            <FontString name="$parent_FlavourText" justifyV="TOP" justifyH="LEFT" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Give a more detailed description here, such as background and appearance. You may use basic HTML (h1, h2, h3, p), but your HTML must be well-formed or it will render incorrectly.">
+            <FontString name="$parent_FlavourText" justifyV="TOP" justifyH="LEFT" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Proporciona una descripción más detallada aquí, como trasfondo y apariencia. Puedes usar HTML básico (h1, h2, h3, p), pero tu HTML debe estar bien formado o se renderizará incorrectamente.">
               <Size>
                 <AbsDimension x="310" y="50"/>
               </Size>
@@ -1555,7 +1555,7 @@
           </Layer>
         </Layers>
         <Frames>
-          <Button name="$parent_SaveButton" inherits="UIPanelButtonGrayTemplate" text="Save">
+          <Button name="$parent_SaveButton" inherits="UIPanelButtonGrayTemplate" text="Guardar">
             <Size>
               <AbsDimension x="50" y="25" />
             </Size>
@@ -1653,7 +1653,7 @@
         <Layers>
     			<Layer level="OVERLAY">
             <!-- Flavour Text -->
-            <FontString name="$parent_FlavourText" justifyV="TOP" justifyH="LEFT" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Add notes to yourself about your character, interactions with other players, etc. These will not be shared.">
+            <FontString name="$parent_FlavourText" justifyV="TOP" justifyH="LEFT" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Añade notas privadas sobre tu personaje, interacciones con otros jugadores, etc. Estas notas no se compartirán.">
               <Size>
                 <AbsDimension x="310" y="40"/>
               </Size>
@@ -1689,7 +1689,7 @@
           </Layer>
         </Layers>
         <Frames>
-          <Button name="$parent_SaveButton" inherits="UIPanelButtonGrayTemplate" text="Save">
+          <Button name="$parent_SaveButton" inherits="UIPanelButtonGrayTemplate" text="Guardar">
             <Size>
               <AbsDimension x="50" y="25" />
             </Size>
@@ -1786,7 +1786,7 @@
         <Layers>
     			<Layer level="OVERLAY">
             <!-- PVP Setting Text -->
-            <FontString name="$parent_PVPText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="On During Battlegrounds">
+            <FontString name="$parent_PVPText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Activar en Campos de Batalla">
               <Anchors>
                 <Anchor point="TOPLEFT">
                   <Offset>
@@ -1800,7 +1800,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- Tray Setting Text -->
-            <FontString name="$parent_TrayText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Show Button Tray">
+            <FontString name="$parent_TrayText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Mostrar barra de botones">
               <Anchors>
                 <Anchor point="TOPLEFT" relativeTo="$parent_PVPText" relativePoint="BOTTOMLEFT">
                   <Offset>
@@ -1814,7 +1814,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- Name Setting Text -->
-            <FontString name="$parent_NameText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Large Tooltip Name">
+            <FontString name="$parent_NameText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Tamaño ampliado para nombres en tooltips"  >
               <Anchors>
                 <Anchor point="TOPLEFT" relativeTo="$parent_TrayText" relativePoint="BOTTOMLEFT">
                   <Offset>
@@ -1828,7 +1828,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- Minimap Icon Setting Text -->
-            <FontString name="$parent_MinimapText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Large Minimap Icon">
+            <FontString name="$parent_MinimapText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Icono grande (minimapa)">
               <Anchors>
                 <Anchor point="TOPLEFT" relativeTo="$parent_NameText" relativePoint="BOTTOMLEFT">
                   <Offset>
@@ -1842,7 +1842,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- Minimap Icon Hide Setting Text -->
-            <FontString name="$parent_MinimapHideText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Hide Minimap Icon">
+            <FontString name="$parent_MinimapHideText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Ocultar icono del minimapa">
               <Anchors>
                 <Anchor point="TOPLEFT" relativeTo="$parent_MinimapText" relativePoint="BOTTOMLEFT">
                   <Offset>
@@ -1856,7 +1856,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- Share Location Setting Text -->
-            <FontString name="$parent_MinimapHideText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Share Map Location">
+            <FontString name="$parent_MinimapHideText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Compartir ubicación">
               <Anchors>
                 <Anchor point="TOPLEFT" relativeTo="$parent_MinimapHideText" relativePoint="BOTTOMLEFT">
                   <Offset>
@@ -2029,7 +2029,7 @@
         <Layers>
     			<Layer level="OVERLAY">
             <!-- About Title -->
-            <FontString name="$parent_AboutTitle" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="About TurtleRP">
+            <FontString name="$parent_AboutTitle" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" text="Sobre TurtleRP">
               <Anchors>
                 <Anchor point="TOPLEFT">
                   <Offset>
@@ -2044,7 +2044,8 @@
             </FontString>
             <!-- About Text -->
             <FontString name="$parent_AboutText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" justifyV="top" justifyH="left"
-              text="TurtleRP was developed by Drixi, with collaboration and help from Ashkir. If we can get support, many more features are planned:  &#xA;&#xA;- Guild functionality&#xA;- Additional description formatting&#xA;- Map locator&#xA;&#xA;Get in touch and find out more here: |ccf0f1bbdhttps://tempranova.github.io/turtlerp/|ccf000000, or join us on Discord at |ccf0f1bbdhttps://discord.gg/Z5w9DqDE96">
+              text="Hola soy Sei, me puse a cargo de los bugs y traducciones para el Servidor SA de TurtleWoW, posiblemente retomare el proyecto para el server SA, y añadir funcionalidades(a futuro),les dejo mi:&#xA; -Kofi |ccf0f1bbdhttps://ko-fi.com/sei_444#|ccf000000 &#xA; -GitHub |ccf0f1bbdhttps://github.com/Sei444/turtlerp|ccf000000 &#xA; TurtleRP fue desarrollado por Drixi, con la colaboración y ayuda de Ashkir. Ponte en contacto y descubre más aquí: |ccf0f1bbdhttps://tempranova.github.io/turtlerp/|ccf000000"
+>
               <Size>
                 <AbsDimension x="310" y="150" />
               </Size>
@@ -2092,7 +2093,7 @@
               <Color r="0" g="0" b="0" />
             </FontString>
             <!-- Issues Text -->
-            <FontString name="$parent_IssuesText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" justifyV="top" justifyH="left" text="Not seeing profiles? Make sure you are in the TTRP channel by pressing 'Rejoin / Reload' below.&#xA;&#xA;Due to chat restrictions, on the Turtle WoW server players under level 5 cannot see other profiles and others cannot see theirs. Level up already!">
+            <FontString name="$parent_IssuesText" inherits="OVERLAY" font="Fonts\FRIZQT__.ttf" justifyV="top" justifyH="left" text="¿No ves perfiles? Asegúrate de estar en el canal TTRP presionando'Rejoin/Reload'.&#xA;&#xA;Debido a restricciones del chat, en el servidor Turtle WoW los jugadores bajo nivel 5 no pueden ver otros perfiles ni otros pueden ver el suyo.¡Sube de nivel ya!">
               <Size>
                 <AbsDimension x="310" y="100" />
               </Size>
@@ -2129,7 +2130,7 @@
         </Layers>
         <Frames>
         <!-- Issues Reload Button -->
-        <Button name="$parent_ReloadButton" alpha="0.8" inherits="UIPanelButtonGrayTemplate" text="Rejoin / Reload">
+        <Button name="$parent_ReloadButton" alpha="0.8" inherits="UIPanelButtonGrayTemplate" text="Rejoin/Reload">
           <Size>
             <AbsDimension x="100" y="25" />
           </Size>
@@ -2151,7 +2152,7 @@
           </Scripts>
         </Button>
         <!-- Clear Directory -->
-        <Button name="$parent_ClearDirectoryButton" alpha="0.8" inherits="UIPanelButtonGrayTemplate" text="Clear Directory">
+        <Button name="$parent_ClearDirectoryButton" alpha="0.8" inherits="UIPanelButtonGrayTemplate" text="Borrar directorio">
           <Size>
             <AbsDimension x="100" y="25" />
           </Size>
@@ -2174,7 +2175,7 @@
           </Scripts>
         </Button>
         <!-- Clear Everything -->
-        <Button name="$parent_ClearAllDataButton" alpha="0.8" inherits="UIPanelButtonGrayTemplate" text="Clear All Data">
+        <Button name="$parent_ClearAllDataButton" alpha="0.8" inherits="UIPanelButtonGrayTemplate" text="Limpiar datos">
           <Size>
             <AbsDimension x="100" y="25" />
           </Size>
@@ -2483,7 +2484,7 @@
         <FontString inherits="ChatFontNormal" />
       </EditBox>
       <!-- Filter button -->
-      <Button name="$parent_FilterButton" inherits="UIPanelButtonGrayTemplate" text="Filter">
+      <Button name="$parent_FilterButton" inherits="UIPanelButtonGrayTemplate" text="Filtro">
         <Size>
           <AbsDimension x="40" y="20" />
         </Size>

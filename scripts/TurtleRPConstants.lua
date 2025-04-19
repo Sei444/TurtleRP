@@ -44,36 +44,37 @@ TurtleRP = {}
 
 TurtleRPDropdownOptions = {}
 TurtleRPDropdownOptions["experience"] = {}
-TurtleRPDropdownOptions["experience"]['a'] = "New"
-TurtleRPDropdownOptions["experience"]['b'] = "Comfortable"
-TurtleRPDropdownOptions["experience"]['c'] = "Advanced"
-TurtleRPDropdownOptions["experience"]['d'] = "Do Not Show"
+TurtleRPDropdownOptions["experience"]['a'] = "Nuevo"
+TurtleRPDropdownOptions["experience"]['b'] = "Cómodo"
+TurtleRPDropdownOptions["experience"]['c'] = "Avanzado"
+TurtleRPDropdownOptions["experience"]['d'] = "No mostrar"
 TurtleRPDropdownOptions["walkups"] = {}
-TurtleRPDropdownOptions["walkups"]['a'] = "Welcomes Walk-Ups"
-TurtleRPDropdownOptions["walkups"]['b'] = "No Walk-Ups"
-TurtleRPDropdownOptions["walkups"]['c'] = "Guild Only"
-TurtleRPDropdownOptions["walkups"]['d'] = "Do Not Show"
+TurtleRPDropdownOptions["walkups"]['a'] = "Acepta encuentros"
+TurtleRPDropdownOptions["walkups"]['b'] = "No acepta"
+TurtleRPDropdownOptions["walkups"]['c'] = "Solo hermandad"
+TurtleRPDropdownOptions["walkups"]['d'] = "No mostrar"
 TurtleRPDropdownOptions["injury"] = {}
-TurtleRPDropdownOptions["injury"]['a'] = "Acceptable"
-TurtleRPDropdownOptions["injury"]['b'] = "Ask First"
+TurtleRPDropdownOptions["injury"]['a'] = "Aceptable"
+TurtleRPDropdownOptions["injury"]['b'] = "Preguntar"
 TurtleRPDropdownOptions["injury"]['c'] = "No"
-TurtleRPDropdownOptions["injury"]['d'] = "Do Not Show"
+TurtleRPDropdownOptions["injury"]['d'] = "No mostrar"
 TurtleRPDropdownOptions["romance"] = {}
-TurtleRPDropdownOptions["romance"]['a'] = "Looking"
-TurtleRPDropdownOptions["romance"]['b'] = "In A Relationship"
-TurtleRPDropdownOptions["romance"]['c'] = "Open Relationship"
-TurtleRPDropdownOptions["romance"]['d'] = "Committed"
-TurtleRPDropdownOptions["romance"]['e'] = "Ask First"
+TurtleRPDropdownOptions["romance"]['a'] = "Buscando"
+TurtleRPDropdownOptions["romance"]['b'] = "En relación"
+TurtleRPDropdownOptions["romance"]['c'] = "Relación abierta"
+TurtleRPDropdownOptions["romance"]['d'] = "Comprometido"
+TurtleRPDropdownOptions["romance"]['e'] = "Preguntar"
 TurtleRPDropdownOptions["romance"]['f'] = "No"
-TurtleRPDropdownOptions["romance"]['g'] = "Do Not Show"
+TurtleRPDropdownOptions["romance"]['g'] = "No mostrar"
 TurtleRPDropdownOptions["death"] = {}
-TurtleRPDropdownOptions["death"]['a'] = "Acceptable"
-TurtleRPDropdownOptions["death"]['b'] = "Ask First"
+TurtleRPDropdownOptions["death"]['a'] = "Aceptable"
+TurtleRPDropdownOptions["death"]['b'] = "Preguntar"
 TurtleRPDropdownOptions["death"]['c'] = "No"
-TurtleRPDropdownOptions["death"]['d'] = "Do Not Show"
+TurtleRPDropdownOptions["death"]['d'] = "No mostrar"
 
 
 TurtleRPClassData = {}
+-- Versión en inglés (original)
 TurtleRPClassData['Druid']    = {1, 0.49, 0.04, "FF7C0A"}
 TurtleRPClassData['Hunter']   = {0.67, 0.83, 0.45, "AAD372"}
 TurtleRPClassData['Mage']     = {0.25, 0.78, 0.92, "3FC7EB"}
@@ -83,6 +84,17 @@ TurtleRPClassData['Rogue']    = {1, 0.96, 0.41, "FFF468"}
 TurtleRPClassData['Shaman']   = {0, 0.44, 0.87, "0070DD"}
 TurtleRPClassData['Warlock']  = {0.53, 0.53, 0.93, "8788EE"}
 TurtleRPClassData['Warrior']  = {0.78, 0.61, 0.43, "C69B6D"}
+
+-- Versión en español (nuevas entradas)
+TurtleRPClassData['Druida']   = TurtleRPClassData['Druid']    -- Misma data que 'Druid'
+TurtleRPClassData['Cazador']  = TurtleRPClassData['Hunter']
+TurtleRPClassData['Mago']     = TurtleRPClassData['Mage']
+TurtleRPClassData['Paladín']  = TurtleRPClassData['Paladin']
+TurtleRPClassData['Sacerdote']= TurtleRPClassData['Priest']
+TurtleRPClassData['Pícaro']   = TurtleRPClassData['Rogue']
+TurtleRPClassData['Chamán']   = TurtleRPClassData['Shaman']
+TurtleRPClassData['Brujo']    = TurtleRPClassData['Warlock']
+TurtleRPClassData['Guerrero'] = TurtleRPClassData['Warrior']
 
 TurtleRPIcons = {
   "Ability_Ambush",

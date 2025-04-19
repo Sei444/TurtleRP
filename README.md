@@ -5,7 +5,7 @@ Hola soy Sei, me estoy encargando de modificar el Addon de TurtleRP para la vers
 Puedes apoyarme revisando mi Ko-fi
 - https://ko-fi.com/sei_444#
 Igualmente puedes dejarme un DM a mi Perfil en Discord por si tienes alguna sugerencia de Addon o encuentras errores en otros Addons
-- discordapp.com/users/1144453997260972032
+- https://discordapp.com/users/1144453997260972032
 
 ## Como usar?
 
